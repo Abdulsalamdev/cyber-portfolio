@@ -11,7 +11,8 @@ import { BackgroundMatrix } from "@/components/ui/BackgroundMatrix";
 
 export default function HomePage() {
   return (
-    <main className="relative min-h-screen text-gray-900 dark:text-gray-100 bg-white dark:bg-black">
+    <main 
+    className="relative min-h-screen text-text bg-surface dark:bg-darkBg transition-colors duration-300">
       <BackgroundMatrix />
       <div className="relative z-10 space-y-20">
         <Hero />
